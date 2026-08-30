@@ -1,0 +1,18 @@
+[project]
+name = "lyric_align"
+description = "Force-align a known lyric sheet onto audio, slice it by time, and repair noisy ASR transcripts against it."
+version = "1.0.0"
+license = "MIT"
+dependencies = ["torchaudio", "rapidfuzz"]
+
+[project.urls]
+Repository = "https://github.com/bmad4ever/comfyui_lyric_align"
+#  Used by Comfy Registry https://registry.comfy.org
+Documentation = "https://github.com/bmad4ever/comfyui_lyric_align/wiki"
+"Bug Tracker" = "https://github.com/bmad4ever/comfyui_lyric_align/issues"
+
+[tool.comfy]
+PublisherId = "bmad4ever"
+DisplayName = "comfyui_lyric_align"
+Icon = ""
+includes = []
